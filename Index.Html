@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Calcula tu IMC!</title>
+    <link rel="stylesheet" href="./Css/Style.css">
+</head>
+
+<body>
+    <header>Calcula tu IMC</header>
+    <main align="center">
+        <p class="titulo">Descubre tu indice de masa corporal</p><br>
+        <form id="seccion_Uno">
+            <table>
+                <tr>
+                    <th>Sexo:</th>
+                    <th><img src="./image/hombre.png" class="genero" id="hombre" alt=""> <img src="./image/raya.png" class="raya" alt=""> <img src="./image/mujer.png" class="genero" id="mujer" alt=""></th>
+                </tr>
+                <tr>
+                    <th>Edad:</th>
+                    <th><input type="text" class="edad" id="edad" required></th>
+                </tr>
+                <tr>
+                    <th>Peso:</th>
+                    <th><input type="text" class="peso" id="peso" required></th>
+                    <th><b class="uwu">KG</b></th>
+                </tr>
+                <tr>
+                    <th>Altura:</th>
+                    <th><input type="text" class="altura" id="altura" required></th>
+                    <th><b class="uwu">M</b></th>
+                </tr>
+            </table><br>
+            <input type="button" value="Calcular tu IMC" id="boton"><br>
+        </form>
+        <div id="seccion_Dos">
+            <p class="titulo">Resultado</p>
+            <p class="Resultado" id="Resultado">caballo</p><br>
+            <div class="barra"></div>
+            <img src="./image/flecha.png" class="flecha" id="flecha" alt="">
+            <hr>
+            <p class="titulo" id="tipoPeso">homosexual de las montañas</p>
+            <fieldset align="left">
+                <table class="A">
+                    <tr>
+                        <th><img src="./image/1.png" alt=""></th>
+                        <th>Bajo peso</th>
+                    </tr>
+                    <tr>
+                        <th><img src="./image/2.png" alt=""></th>
+                        <th>Saludable</th>
+                    </tr>
+                    <tr>
+                        <th><img src="./image/3.png" alt=""></th>
+                        <th>Exceso de peso</th>
+                    </tr>
+                    <tr>
+                        <th><img src="./image/4.png" alt=""></th>
+                        <th>Obeso</th>
+                    </tr>
+                    <tr>
+                        <th><img src="./image/5.png" alt=""></th>
+                        <th>Obesidad extrema</th>
+                    </tr>
+                </table>
+            </fieldset>
+            <input type="button" id="volver" value="Regresar">
+        </div>
+    </main>
+    <footer></footer>
+    <script src="js/Script.js"></script>
+    <script src="js/sc.js"></script>
+</body>
+
+</html>
